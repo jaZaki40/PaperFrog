@@ -1,0 +1,2942 @@
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>%|%ID Metadata%|%</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gco:CharacterString>spa</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="./resources/codeList.xml#MD_CharacterSetCode" />
+  </gmd:characterSet>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:organisationName>
+        <gco:CharacterString>Instituto Geográfico Agustín Codazzi - Subdirección de Geografía y Cartografía - Grupo Interno de Trabajo Imágenes Geoespaciales</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Coordinador Grupo Interno de Trabajo Imágenes Geoespaciales</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>57 1 3694000 -  Ext. 4265</gco:CharacterString>
+              </gmd:voice>
+              <gmd:facsimile>
+                <gco:CharacterString>57 1 3694102</gco:CharacterString>
+              </gmd:facsimile>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>Kr. 30 No. 48 – 51 Piso 2</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+              </gmd:city>
+              <gmd:administrativeArea>
+                <gco:CharacterString>Cundinamarca</gco:CharacterString>
+              </gmd:administrativeArea>
+              <gmd:postalCode>
+                <gco:CharacterString>111321</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>Colombia</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>bni@igac.gov.co</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://bni.igac.gov.co/home/srv/es/csw</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>Dirección Web</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Servicio de catálogo Banco Nacional de Imágenes</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Servicio de catálogo donde se permite buscar colecciones de información descriptiva de imágenes (metadatos) publicadas en el Banco Nacional de Imágenes</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeListValue="information" codeList="./resources/codeList.xml#CI_OnLineFunctionCode" />
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+          <gmd:hoursOfService>
+            <gco:CharacterString>8:00 a 16:30</gco:CharacterString>
+          </gmd:hoursOfService>
+          <gmd:contactInstructions>
+            <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+          </gmd:contactInstructions>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeListValue="author" codeList="./resources/codeList.xml#CI_RoleCode" />
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:DateTime />
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>NTC 4611 - Metadato Geográfico</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>Segunda actualización</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:spatialRepresentationInfo>
+    <gmd:MD_GridSpatialRepresentation>
+      <gmd:numberOfDimensions>
+        <gco:Integer>2</gco:Integer>
+      </gmd:numberOfDimensions>
+      <gmd:axisDimensionProperties>
+        <gmd:MD_Dimension>
+          <gmd:dimensionName>
+            <gmd:MD_DimensionNameTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_DimensionNameTypeCode" codeListValue="row" />
+          </gmd:dimensionName>
+          <gmd:dimensionSize>
+            <gco:Integer>11500</gco:Integer>
+          </gmd:dimensionSize>
+          <gmd:resolution>
+            <gco:Measure uom="metros">%|%Resolución GSD XX%|%</gco:Measure>
+          </gmd:resolution>
+        </gmd:MD_Dimension>
+      </gmd:axisDimensionProperties>
+      <gmd:axisDimensionProperties>
+        <gmd:MD_Dimension>
+          <gmd:dimensionName>
+            <gmd:MD_DimensionNameTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_DimensionNameTypeCode" codeListValue="column" />
+          </gmd:dimensionName>
+          <gmd:dimensionSize>
+            <gco:Integer>7500</gco:Integer>
+          </gmd:dimensionSize>
+          <gmd:resolution>
+            <gco:Measure uom="metros">%|%Resolución GSD XX%|%</gco:Measure>
+          </gmd:resolution>
+        </gmd:MD_Dimension>
+      </gmd:axisDimensionProperties>
+      <gmd:cellGeometry>
+        <gmd:MD_CellGeometryCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_CellGeometryCode" codeListValue="area" />
+      </gmd:cellGeometry>
+      <gmd:transformationParameterAvailability>
+        <gco:Boolean>0</gco:Boolean>
+      </gmd:transformationParameterAvailability>
+    </gmd:MD_GridSpatialRepresentation>
+  </gmd:spatialRepresentationInfo>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>European Petroleum Survey Group</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>Imagen Aerofotográfica No. %|%DDMMMCCCGGDDMMAAAA-XXXXN%|%. Departamento de(l) %|%Xxxx%|%, Municipio de %|%Xxxx%|%. Año %|%AAAA%|%</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>Fotografía Aérea Digital</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>%|%FechaXX%|%</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeListValue="creation" codeList="./resources/codeList.xml#CI_DateTypeCode" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:edition>
+            <gco:CharacterString>No aplica</gco:CharacterString>
+          </gmd:edition>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gco:CharacterString>%|%04....%|%</gco:CharacterString>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Instituto Geográfico Agustín Codazzi</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>57 1 3694000</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>57 1 3694102</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Kr. 30 No. 48 – 51</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Cundinamarca</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>111321</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>cig@igac.gov.co</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>http://www.igac.gov.co</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:protocol>
+                        <gco:CharacterString>Partner web address (URL)</gco:CharacterString>
+                      </gmd:protocol>
+                      <gmd:name>
+                        <gco:CharacterString>Página Web Instituto Geográfico Agustín Codazzi</gco:CharacterString>
+                      </gmd:name>
+                      <gmd:description>
+                        <gco:CharacterString>Página web en la cual se suministra información específica sobre las funciones misionales de la entidad</gco:CharacterString>
+                      </gmd:description>
+                      <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeListValue="information" codeList="./resources/codeList.xml#CI_OnLineFunctionCode" />
+                      </gmd:function>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>8:00 a 16:30</gco:CharacterString>
+                  </gmd:hoursOfService>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="owner" codeList="./resources/codeList.xml#CI_RoleCode" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Instituto Geográfico Agustín Codazzi – Subdirección de Geografía y Cartografía</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Subdirector de Geografía y Cartografía</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>57 1 3694000</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>57 1 3694102</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Kr. 30 No. 48 – 51 Piso 2</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Cundinamarca</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>111321</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString />
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>http://www.igac.gov.co:8080/igac_web/contenidos/plantilla_anclasDocs_cont_contDocs.jsp?idMenu=107</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:protocol>
+                        <gco:CharacterString>Partner web address (URL)</gco:CharacterString>
+                      </gmd:protocol>
+                      <gmd:name>
+                        <gco:CharacterString>Página Web Instituto Geográfico Agustín Codazzi</gco:CharacterString>
+                      </gmd:name>
+                      <gmd:description>
+                        <gco:CharacterString>Página web en la cual se suministra información específica sobre las funciones de la subdirección de Geografía y Cartografía</gco:CharacterString>
+                      </gmd:description>
+                      <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeListValue="information" codeList="./resources/codeList.xml#CI_OnLineFunctionCode" />
+                      </gmd:function>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>8:00 a 16:30</gco:CharacterString>
+                  </gmd:hoursOfService>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="author" codeList="./resources/codeList.xml#CI_RoleCode" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Instituto Geográfico Agustín Codazzi - Subdirección de Geografía y Cartografía - Grupo Interno de Trabajo Imágenes Geoespaciales</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Coordinador Grupo Interno de Trabajo Imágenes Geoespaciales</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>57 1 3694000 -  Ext. 4265</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>57 1 3694102</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Kr. 30 No. 48 – 51 Piso 2</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Cundinamarca</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>111321</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>bni@igac.gov.co</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>8:00 a 16:30</gco:CharacterString>
+                  </gmd:hoursOfService>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="custodian" codeList="./resources/codeList.xml#CI_RoleCode" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:presentationForm>
+            <gmd:CI_PresentationFormCode codeListValue="imageDigital" codeList="./resources/codeList.xml#CI_PresentationFormCode" />
+          </gmd:presentationForm>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>Imagen digital capturada por la Cámara Digital Vexcel Ultracam D, con una distancia focal de %|%XXX.X%|% m.m. y una altura de vuelo %|%XXXX.XXX%|% m.s.n.m. Presenta un Nivel de Procesamiento de: %|%Nivel Procesamiento XX%|%.</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:purpose>
+        <gco:CharacterString>Insumo básico en la producción de cartografía básica digital por medio de procesos fotogramétricos, elaboración y actualización de ortofotos digitales, modelos digitales de terreno, ortofotomapas y trabajos temáticos, entre muchos otros.</gco:CharacterString>
+      </gmd:purpose>
+      <gmd:credit>
+        <gco:CharacterString />
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeListValue="completed" codeList="./resources/codeList.xml#MD_ProgressCode" />
+      </gmd:status>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:organisationName>
+            <gco:CharacterString>Instituto Geográfico Agustín Codazzi - Subdirección de Geografía y Cartografía - Grupo Interno de trabajo Imágenes Geoespaciales</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:positionName>
+            <gco:CharacterString>Coordinador Grupo Interno de Trabajo Imágenes Geoespaciales</gco:CharacterString>
+          </gmd:positionName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>57 1 3694000 -  Ext. 4265</gco:CharacterString>
+                  </gmd:voice>
+                  <gmd:facsimile>
+                    <gco:CharacterString>57 1 3694102</gco:CharacterString>
+                  </gmd:facsimile>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Kr. 30 No. 48 – 51 Piso 2</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>Cundinamarca</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>111321</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>Colombia</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>bni@igac.gov.co</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:hoursOfService>
+                <gco:CharacterString>8:00 a 16:30</gco:CharacterString>
+              </gmd:hoursOfService>
+              <gmd:contactInstructions>
+                <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+              </gmd:contactInstructions>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeListValue="custodian" codeList="./resources/codeList.xml#CI_RoleCode" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeListValue="asNeeded" codeList="./resources/codeList.xml#MD_MaintenanceFrequencyCode" />
+          </gmd:maintenanceAndUpdateFrequency>
+          <gmd:maintenanceNote>
+            <gco:CharacterString />
+          </gmd:maintenanceNote>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString />
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>thumbnail</gco:CharacterString>
+          </gmd:fileDescription>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString />
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>large_thumbnail</gco:CharacterString>
+          </gmd:fileDescription>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>%|%Tipo XX%|%</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>%|%Subtipo XX%|%</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>%|%Sensor XX%|%</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>%|%Nivel Procesamiento XX%|%</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>GSD</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Sensores remotos</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Estereoscopía</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Imagen</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Resolución</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeListValue="theme" codeList="./resources/codeList.xml#MD_KeywordTypeCode" />
+          </gmd:type>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Departamento de(l) %|%Departamento%|%</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Municipio de %|%Cubrimiento municipal%|%</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>República de Colombia</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeListValue="place" codeList="./resources/codeList.xml#MD_KeywordTypeCode" />
+          </gmd:type>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_Constraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>No modificar, no distribuir y no comercializar sin previa autorización expresa y escrita del Instituto Geográfico Agustin Codazzi. Se permite generar productos derivados con citación del titular del producto originario.</gco:CharacterString>
+          </gmd:useLimitation>
+        </gmd:MD_Constraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeListValue="license" codeList="./resources/codeList.xml#MD_RestrictionCode" />
+          </gmd:accessConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeListValue="copyright" codeList="./resources/codeList.xml#MD_RestrictionCode" />
+          </gmd:useConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString />
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_SecurityConstraints>
+          <gmd:classification>
+            <gmd:MD_ClassificationCode codeListValue="unclassified" codeList="./resources/codeList.xml#MD_ClassificationCode" />
+          </gmd:classification>
+          <gmd:userNote>
+            <gco:CharacterString />
+          </gmd:userNote>
+        </gmd:MD_SecurityConstraints>
+      </gmd:resourceConstraints>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeListValue="grid" codeList="./resources/codeList.xml#MD_SpatialRepresentationTypeCode" />
+      </gmd:spatialRepresentationType>
+      <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <gmd:distance>
+            <gco:Distance uom="metros">%|%Resolución GSD XX%|%</gco:Distance>
+          </gmd:distance>
+        </gmd:MD_Resolution>
+      </gmd:spatialResolution>
+      <gmd:language>
+        <gco:CharacterString>zxx</gco:CharacterString>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="./resources/codeList.xml#MD_CharacterSetCode" />
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>imageryBaseMapsEarthCover</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:environmentDescription>
+        <gco:CharacterString />
+      </gmd:environmentDescription>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>La aerofotografía digital %|%Cubrimiento municipal%|%</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gco:CharacterString>%|%DDMMMCCCGGDDMMAAAA-XXXXN%|%</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:supplementalInformation>
+        <gco:CharacterString>Apoya el desarrollo de estudios temáticos y de consultoría sobre el Territorio Nacional. Cubre parcialmente la hoja a escala 1:%|%XXXX%|% N° %|%XX%|%</gco:CharacterString>
+      </gmd:supplementalInformation>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:contentInfo>
+    <gmd:MD_CoverageDescription>
+      <gmd:attributeDescription>
+        <gco:RecordType>La unidad mínima es el píxel, el cual tiene asociado un número denominado como nivel digital, el cual representa la intensidad o brillo promedio de una área mínima relativa dentro de la escena</gco:RecordType>
+      </gmd:attributeDescription>
+      <gmd:contentType>
+        <gmd:MD_CoverageContentTypeCode codeListValue="image" codeList="./resources/codeList.xml#MD_CoverageContentTypeCode" />
+      </gmd:contentType>
+    </gmd:MD_CoverageDescription>
+  </gmd:contentInfo>
+  <gmd:contentInfo>
+    <gmd:MD_ImageDescription>
+      <gmd:attributeDescription>
+        <gco:RecordType>Pixel imagen original 9 micras</gco:RecordType>
+      </gmd:attributeDescription>
+      <gmd:contentType>
+        <gmd:MD_CoverageContentTypeCode codeListValue="image" codeList="./resources/codeList.xml#MD_CoverageContentTypeCode" />
+      </gmd:contentType>
+      <gmd:imagingCondition>
+        <gmd:MD_ImagingConditionCode codeListValue="" codeList="./resources/codeList.xml#MD_ImagingConditionCode" />
+      </gmd:imagingCondition>
+      <gmd:cloudCoverPercentage>
+        <gco:Real>0</gco:Real>
+      </gmd:cloudCoverPercentage>
+      <gmd:cameraCalibrationInformationAvailability>
+        <gco:Boolean>1</gco:Boolean>
+      </gmd:cameraCalibrationInformationAvailability>
+    </gmd:MD_ImageDescription>
+  </gmd:contentInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:productosImpresos>
+        <gco:CharacterString>Impresiones digitales de imágenes completas con ampliaciones disponibles de acuerdo con el listado establecido por la oficina de Difusión y Mercadeo, además se ofrecen impresiones de zonas indicadas específicas de la fotografía, seleccionadas por el usuario mediante las plantillas establecidas por el instituto, se ofrecen tamaños máximos de ampliación de acuerdo con el tipo de plantilla utilizada por el usuario.</gco:CharacterString>
+      </gmd:productosImpresos>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>%|%Formato XX%|%</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>No disponible</gco:CharacterString>
+          </gmd:version>
+          <gmd:fileDecompressionTechnique>
+            <gco:CharacterString>Desplegar la imagen utilizando el Software Irfanview (Descarga libre)</gco:CharacterString>
+          </gmd:fileDecompressionTechnique>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Instituto Geográfico Agustín Codazzi-Sede Central</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Jefe de Oficina de Difusión y Mercadeo de Información</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>57 1 3694000</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>57 1 3694102</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Kr. 30 No. 48 – 51</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Cundinamarca</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>111321</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>cig@igac.gov.co</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>8:00 a 16:30</gco:CharacterString>
+                  </gmd:hoursOfService>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="distributor" codeList="./resources/codeList.xml#CI_RoleCode" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>Definido por la resolución oficial de precios vigente</gco:CharacterString>
+              </gmd:fees>
+              <gmd:plannedAvailableDateTime>
+                <gco:DateTime>2009-12-31T00:00:00</gco:DateTime>
+              </gmd:plannedAvailableDateTime>
+              <gmd:orderingInstructions>
+                <gco:CharacterString>El usuario debe solicitar el producto en el Centro de Información Geográfica, especificando la forma de presentación. Un funcionario diligencia la factura, con la cual el usuario cancela el valor definido por la Resolución de precios vigente</gco:CharacterString>
+              </gmd:orderingInstructions>
+              <gmd:turnaround>
+                <gco:CharacterString>Presentando factura cancelada, reclama el producto en el tiempo indicado por el funcionario en ventanilla.</gco:CharacterString>
+              </gmd:turnaround>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:unitsOfDistribution>
+                <gco:CharacterString />
+              </gmd:unitsOfDistribution>
+              <gmd:transferSize>
+                <gco:Real>%|%Tamanio Archivo%|%</gco:Real>
+              </gmd:transferSize>
+              <gmd:offLine>
+                <gmd:MD_Medium>
+                  <gmd:name>
+                    <gmd:MD_MediumNameCode codeListValue="dvd" codeList="./resources/codeList.xml#MD_MediumNameCode" />
+                  </gmd:name>
+                  <gmd:mediumFormat>
+                    <gmd:MD_MediumFormatCode codeListValue="iso9660" codeList="./resources/codeList.xml#MD_MediumFormatCode" />
+                  </gmd:mediumFormat>
+                </gmd:MD_Medium>
+              </gmd:offLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Instituto Geográfico Agustín Codazzi-Dirección Territorial Antioquia</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Director Territorial Antioquia</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>56 4 2625958</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:voice>
+                        <gco:CharacterString>57 4 3810561</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>57 4 3810561</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Carrera 52 No. 42-43  Sótano DIAN</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Medellin</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Antioquia</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString />
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>medellin@igac.gov.co</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>8:00 a 16:00</gco:CharacterString>
+                  </gmd:hoursOfService>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="distributor" codeList="./resources/codeList.xml#CI_RoleCode" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>Definido por la resolución oficial de precios vigente</gco:CharacterString>
+              </gmd:fees>
+              <gmd:plannedAvailableDateTime>
+                <gco:DateTime>2009-12-31T00:00:00</gco:DateTime>
+              </gmd:plannedAvailableDateTime>
+              <gmd:orderingInstructions>
+                <gco:CharacterString>El usuario debe solicitar el producto en el Centro de Información Geográfica, especificando la forma de presentación. Un funcionario diligencia la factura, con la cual el usuario cancela el valor definido por la Resolución de precios vigente</gco:CharacterString>
+              </gmd:orderingInstructions>
+              <gmd:turnaround>
+                <gco:CharacterString>Presentando factura cancelada, reclama el producto en el tiempo indicado por el funcionario en ventanilla.</gco:CharacterString>
+              </gmd:turnaround>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:unitsOfDistribution>
+                <gco:CharacterString />
+              </gmd:unitsOfDistribution>
+              <gmd:transferSize>
+                <gco:Real>%|%Tamanio Archivo%|%</gco:Real>
+              </gmd:transferSize>
+              <gmd:offLine>
+                <gmd:MD_Medium>
+                  <gmd:name>
+                    <gmd:MD_MediumNameCode codeListValue="dvd" codeList="./resources/codeList.xml#MD_MediumNameCode" />
+                  </gmd:name>
+                  <gmd:mediumFormat>
+                    <gmd:MD_MediumFormatCode codeListValue="iso9660" codeList="./resources/codeList.xml#MD_MediumFormatCode" />
+                  </gmd:mediumFormat>
+                </gmd:MD_Medium>
+              </gmd:offLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Instituto Geográfico Agustín Codazzi-Dirección Territorial Atlántico</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Director Territorial Atlántico</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>57 5 3411683</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:voice>
+                        <gco:CharacterString>57 5 3409753</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>57 5 3704200</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Calle 36 No. 45 - 101</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Barranquilla</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Atlántico</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>80003</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>barranquilla@igac.gov.co</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>7:15 a 12:00 - 13:00 a 17:00</gco:CharacterString>
+                  </gmd:hoursOfService>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="distributor" codeList="./resources/codeList.xml#CI_RoleCode" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>Definido por la resolución oficial de precios vigente</gco:CharacterString>
+              </gmd:fees>
+              <gmd:plannedAvailableDateTime>
+                <gco:DateTime>2009-12-31T00:00:00</gco:DateTime>
+              </gmd:plannedAvailableDateTime>
+              <gmd:orderingInstructions>
+                <gco:CharacterString>El usuario debe solicitar el producto en el Centro de Información Geográfica, especificando la forma de presentación. Un funcionario diligencia la factura, con la cual el usuario cancela el valor definido por la Resolución de precios vigente</gco:CharacterString>
+              </gmd:orderingInstructions>
+              <gmd:turnaround>
+                <gco:CharacterString>Presentando factura cancelada, reclama el producto en el tiempo indicado por el funcionario en ventanilla.</gco:CharacterString>
+              </gmd:turnaround>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:unitsOfDistribution>
+                <gco:CharacterString />
+              </gmd:unitsOfDistribution>
+              <gmd:transferSize>
+                <gco:Real>%|%Tamanio Archivo%|%</gco:Real>
+              </gmd:transferSize>
+              <gmd:offLine>
+                <gmd:MD_Medium>
+                  <gmd:name>
+                    <gmd:MD_MediumNameCode codeListValue="dvd" codeList="./resources/codeList.xml#MD_MediumNameCode" />
+                  </gmd:name>
+                  <gmd:mediumFormat>
+                    <gmd:MD_MediumFormatCode codeListValue="iso9660" codeList="./resources/codeList.xml#MD_MediumFormatCode" />
+                  </gmd:mediumFormat>
+                </gmd:MD_Medium>
+              </gmd:offLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Instituto Geográfico Agustín Codazzi-Dirección Territorial Bolívar</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Director Territorial Bolívar</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>57 5 6644170</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:voice>
+                        <gco:CharacterString>57 5 6644169</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>57 5 6640109</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Calle 34 No. 3A - 31</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Cartagena</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Bolivar</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString />
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>cartagena@igac.gov.co</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>7:00 a 12:00 - 14:00 a 18:00</gco:CharacterString>
+                  </gmd:hoursOfService>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="distributor" codeList="./resources/codeList.xml#CI_RoleCode" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>Definido por la resolución oficial de precios vigente</gco:CharacterString>
+              </gmd:fees>
+              <gmd:plannedAvailableDateTime>
+                <gco:DateTime>2009-12-31T00:00:00</gco:DateTime>
+              </gmd:plannedAvailableDateTime>
+              <gmd:orderingInstructions>
+                <gco:CharacterString>El usuario debe solicitar el producto en el Centro de Información Geográfica, especificando la forma de presentación. Un funcionario diligencia la factura, con la cual el usuario cancela el valor definido por la Resolución de precios vigente</gco:CharacterString>
+              </gmd:orderingInstructions>
+              <gmd:turnaround>
+                <gco:CharacterString>Presentando factura cancelada, reclama el producto en el tiempo indicado por el funcionario en ventanilla.</gco:CharacterString>
+              </gmd:turnaround>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:unitsOfDistribution>
+                <gco:CharacterString />
+              </gmd:unitsOfDistribution>
+              <gmd:transferSize>
+                <gco:Real>%|%Tamanio Archivo%|%</gco:Real>
+              </gmd:transferSize>
+              <gmd:offLine>
+                <gmd:MD_Medium>
+                  <gmd:name>
+                    <gmd:MD_MediumNameCode codeListValue="dvd" codeList="./resources/codeList.xml#MD_MediumNameCode" />
+                  </gmd:name>
+                  <gmd:mediumFormat>
+                    <gmd:MD_MediumFormatCode codeListValue="iso9660" codeList="./resources/codeList.xml#MD_MediumFormatCode" />
+                  </gmd:mediumFormat>
+                </gmd:MD_Medium>
+              </gmd:offLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Instituto Geográfico Agustín Codazzi-Dirección Territorial Boyacá</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Director Territorial Boyacá</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>57 8 7441968</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:voice>
+                        <gco:CharacterString>57 8 7422268</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>57 8 7426211</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Calle 18 No. 11 - 31 Piso 5, 6 y 7</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Tunja</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Boyacá</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString />
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>tunja@igac.gov.co</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>7:00 a 11:30 - 14:00 a 16:00</gco:CharacterString>
+                  </gmd:hoursOfService>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="distributor" codeList="./resources/codeList.xml#CI_RoleCode" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>Definido por la resolución oficial de precios vigente</gco:CharacterString>
+              </gmd:fees>
+              <gmd:plannedAvailableDateTime>
+                <gco:DateTime>2009-12-31T00:00:00</gco:DateTime>
+              </gmd:plannedAvailableDateTime>
+              <gmd:orderingInstructions>
+                <gco:CharacterString>El usuario debe solicitar el producto en el Centro de Información Geográfica, especificando la forma de presentación. Un funcionario diligencia la factura, con la cual el usuario cancela el valor definido por la Resolución de precios vigente</gco:CharacterString>
+              </gmd:orderingInstructions>
+              <gmd:turnaround>
+                <gco:CharacterString>Presentando factura cancelada, reclama el producto en el tiempo indicado por el funcionario en ventanilla.</gco:CharacterString>
+              </gmd:turnaround>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:unitsOfDistribution>
+                <gco:CharacterString />
+              </gmd:unitsOfDistribution>
+              <gmd:transferSize>
+                <gco:Real>%|%Tamanio Archivo%|%</gco:Real>
+              </gmd:transferSize>
+              <gmd:offLine>
+                <gmd:MD_Medium>
+                  <gmd:name>
+                    <gmd:MD_MediumNameCode codeListValue="dvd" codeList="./resources/codeList.xml#MD_MediumNameCode" />
+                  </gmd:name>
+                  <gmd:mediumFormat>
+                    <gmd:MD_MediumFormatCode codeListValue="iso9660" codeList="./resources/codeList.xml#MD_MediumFormatCode" />
+                  </gmd:mediumFormat>
+                </gmd:MD_Medium>
+              </gmd:offLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Instituto Geográfico Agustín Codazzi-Dirección  Territorial Caldas</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Director Territorial Caldas</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>57 6 8848275</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:voice>
+                        <gco:CharacterString>57 6 8845864</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>57 6 8845023</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Carrera 24 No. 25-15</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Manizales</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Caldas</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString />
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>manizales@igac.gov.co</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>7:00 a 12:00 - 14:00 a 18:00</gco:CharacterString>
+                  </gmd:hoursOfService>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="distributor" codeList="./resources/codeList.xml#CI_RoleCode" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>Definido por la resolución oficial de precios vigente</gco:CharacterString>
+              </gmd:fees>
+              <gmd:plannedAvailableDateTime>
+                <gco:DateTime>2009-12-31T00:00:00</gco:DateTime>
+              </gmd:plannedAvailableDateTime>
+              <gmd:orderingInstructions>
+                <gco:CharacterString>El usuario debe solicitar el producto en el Centro de Información Geográfica, especificando la forma de presentación. Un funcionario diligencia la factura, con la cual el usuario cancela el valor definido por la Resolución de precios vigente</gco:CharacterString>
+              </gmd:orderingInstructions>
+              <gmd:turnaround>
+                <gco:CharacterString>Presentando factura cancelada, reclama el producto en el tiempo indicado por el funcionario en ventanilla.</gco:CharacterString>
+              </gmd:turnaround>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:unitsOfDistribution>
+                <gco:CharacterString />
+              </gmd:unitsOfDistribution>
+              <gmd:transferSize>
+                <gco:Real>%|%Tamanio Archivo%|%</gco:Real>
+              </gmd:transferSize>
+              <gmd:offLine>
+                <gmd:MD_Medium>
+                  <gmd:name>
+                    <gmd:MD_MediumNameCode codeListValue="dvd" codeList="./resources/codeList.xml#MD_MediumNameCode" />
+                  </gmd:name>
+                  <gmd:mediumFormat>
+                    <gmd:MD_MediumFormatCode codeListValue="iso9660" codeList="./resources/codeList.xml#MD_MediumFormatCode" />
+                  </gmd:mediumFormat>
+                </gmd:MD_Medium>
+              </gmd:offLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Instituto Geográfico Agustín Codazzi-Dirección Territorial Caquetá</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Director Territorial Caquetá</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>57 8 4351392</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:voice>
+                        <gco:CharacterString>57 8 4358272</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>57 8 4358272</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Calle 20 No. 5-29 Barrio Buenos Aires</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Florencia</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Caquetá</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString />
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>florencia@igac.gov.co</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>7:00 a 12:00 - 14:00 a 18:00</gco:CharacterString>
+                  </gmd:hoursOfService>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="distributor" codeList="./resources/codeList.xml#CI_RoleCode" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>Definido por la resolución oficial de precios vigente</gco:CharacterString>
+              </gmd:fees>
+              <gmd:plannedAvailableDateTime>
+                <gco:DateTime>2009-12-31T00:00:00</gco:DateTime>
+              </gmd:plannedAvailableDateTime>
+              <gmd:orderingInstructions>
+                <gco:CharacterString>El usuario debe solicitar el producto en el Centro de Información Geográfica, especificando la forma de presentación. Un funcionario diligencia la factura, con la cual el usuario cancela el valor definido por la Resolución de precios vigente</gco:CharacterString>
+              </gmd:orderingInstructions>
+              <gmd:turnaround>
+                <gco:CharacterString>Presentando factura cancelada, reclama el producto en el tiempo indicado por el funcionario en ventanilla.</gco:CharacterString>
+              </gmd:turnaround>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:unitsOfDistribution>
+                <gco:CharacterString />
+              </gmd:unitsOfDistribution>
+              <gmd:transferSize>
+                <gco:Real>%|%Tamanio Archivo%|%</gco:Real>
+              </gmd:transferSize>
+              <gmd:offLine>
+                <gmd:MD_Medium>
+                  <gmd:name>
+                    <gmd:MD_MediumNameCode codeListValue="dvd" codeList="./resources/codeList.xml#MD_MediumNameCode" />
+                  </gmd:name>
+                  <gmd:mediumFormat>
+                    <gmd:MD_MediumFormatCode codeListValue="iso9660" codeList="./resources/codeList.xml#MD_MediumFormatCode" />
+                  </gmd:mediumFormat>
+                </gmd:MD_Medium>
+              </gmd:offLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Instituto Geográfico Agustín Codazzi-Dirección Territorial Cauca</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Director Territorial Cauca</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>57 2 8240031</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:voice>
+                        <gco:CharacterString>58 2 8240236</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>59 2 8242639</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Calle 3 No. 7 – 08</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Popayán</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Cauca</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString />
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>popayan@igac.gov.co</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>7:00 a 12:00 - 14:00 a 18:00</gco:CharacterString>
+                  </gmd:hoursOfService>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="distributor" codeList="./resources/codeList.xml#CI_RoleCode" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>Definido por la resolución oficial de precios vigente</gco:CharacterString>
+              </gmd:fees>
+              <gmd:plannedAvailableDateTime>
+                <gco:DateTime>2009-12-31T00:00:00</gco:DateTime>
+              </gmd:plannedAvailableDateTime>
+              <gmd:orderingInstructions>
+                <gco:CharacterString>El usuario debe solicitar el producto en el Centro de Información Geográfica, especificando la forma de presentación. Un funcionario diligencia la factura, con la cual el usuario cancela el valor definido por la Resolución de precios vigente</gco:CharacterString>
+              </gmd:orderingInstructions>
+              <gmd:turnaround>
+                <gco:CharacterString>Presentando factura cancelada, reclama el producto en el tiempo indicado por el funcionario en ventanilla.</gco:CharacterString>
+              </gmd:turnaround>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:unitsOfDistribution>
+                <gco:CharacterString />
+              </gmd:unitsOfDistribution>
+              <gmd:transferSize>
+                <gco:Real>%|%Tamanio Archivo%|%</gco:Real>
+              </gmd:transferSize>
+              <gmd:offLine>
+                <gmd:MD_Medium>
+                  <gmd:name>
+                    <gmd:MD_MediumNameCode codeListValue="dvd" codeList="./resources/codeList.xml#MD_MediumNameCode" />
+                  </gmd:name>
+                  <gmd:mediumFormat>
+                    <gmd:MD_MediumFormatCode codeListValue="iso9660" codeList="./resources/codeList.xml#MD_MediumFormatCode" />
+                  </gmd:mediumFormat>
+                </gmd:MD_Medium>
+              </gmd:offLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Instituto Geográfico Agustín Codazzi-Dirección Territorial Cesar</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Director Territorial Cesar</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>57 5 5742293</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:voice>
+                        <gco:CharacterString>58 5 5707660</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>57 5 5742293</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Calle 16 No. 9 - 30 Piso 8</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Valledupar</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Cesar</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString />
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>valledupar@igac.gov.co</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>7:00 a 12:00 - 14:00 a 18:00</gco:CharacterString>
+                  </gmd:hoursOfService>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="distributor" codeList="./resources/codeList.xml#CI_RoleCode" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>Definido por la resolución oficial de precios vigente</gco:CharacterString>
+              </gmd:fees>
+              <gmd:plannedAvailableDateTime>
+                <gco:DateTime>2009-12-31T00:00:00</gco:DateTime>
+              </gmd:plannedAvailableDateTime>
+              <gmd:orderingInstructions>
+                <gco:CharacterString>El usuario debe solicitar el producto en el Centro de Información Geográfica, especificando la forma de presentación. Un funcionario diligencia la factura, con la cual el usuario cancela el valor definido por la Resolución de precios vigente</gco:CharacterString>
+              </gmd:orderingInstructions>
+              <gmd:turnaround>
+                <gco:CharacterString>Presentando factura cancelada, reclama el producto en el tiempo indicado por el funcionario en ventanilla.</gco:CharacterString>
+              </gmd:turnaround>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:unitsOfDistribution>
+                <gco:CharacterString />
+              </gmd:unitsOfDistribution>
+              <gmd:transferSize>
+                <gco:Real>%|%Tamanio Archivo%|%</gco:Real>
+              </gmd:transferSize>
+              <gmd:offLine>
+                <gmd:MD_Medium>
+                  <gmd:name>
+                    <gmd:MD_MediumNameCode codeListValue="dvd" codeList="./resources/codeList.xml#MD_MediumNameCode" />
+                  </gmd:name>
+                  <gmd:mediumFormat>
+                    <gmd:MD_MediumFormatCode codeListValue="iso9660" codeList="./resources/codeList.xml#MD_MediumFormatCode" />
+                  </gmd:mediumFormat>
+                </gmd:MD_Medium>
+              </gmd:offLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Instituto Geográfico Agustín Codazzi-Dirección Territorial Córdoba</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Director Territorial Córdoba</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>57 4 7826572</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:voice>
+                        <gco:CharacterString>58 4 7825458</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>59 4 7824902</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Carrera 2  22-05</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Monteria</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Córdoba</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString />
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>monteria@igac.gov.co</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString />
+                  </gmd:hoursOfService>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="distributor" codeList="./resources/codeList.xml#CI_RoleCode" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>Definido por la resolución oficial de precios vigente</gco:CharacterString>
+              </gmd:fees>
+              <gmd:plannedAvailableDateTime>
+                <gco:DateTime>2009-12-31T00:00:00</gco:DateTime>
+              </gmd:plannedAvailableDateTime>
+              <gmd:orderingInstructions>
+                <gco:CharacterString>El usuario debe solicitar el producto en el Centro de Información Geográfica, especificando la forma de presentación. Un funcionario diligencia la factura, con la cual el usuario cancela el valor definido por la Resolución de precios vigente</gco:CharacterString>
+              </gmd:orderingInstructions>
+              <gmd:turnaround>
+                <gco:CharacterString>Presentando factura cancelada, reclama el producto en el tiempo indicado por el funcionario en ventanilla.</gco:CharacterString>
+              </gmd:turnaround>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:unitsOfDistribution>
+                <gco:CharacterString />
+              </gmd:unitsOfDistribution>
+              <gmd:transferSize>
+                <gco:Real>%|%Tamanio Archivo%|%</gco:Real>
+              </gmd:transferSize>
+              <gmd:offLine>
+                <gmd:MD_Medium>
+                  <gmd:name>
+                    <gmd:MD_MediumNameCode codeListValue="dvd" codeList="./resources/codeList.xml#MD_MediumNameCode" />
+                  </gmd:name>
+                  <gmd:mediumFormat>
+                    <gmd:MD_MediumFormatCode codeListValue="iso9660" codeList="./resources/codeList.xml#MD_MediumFormatCode" />
+                  </gmd:mediumFormat>
+                </gmd:MD_Medium>
+              </gmd:offLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Instituto Geográfico Agustín Codazzi-Dirección Territorial Cundinamarca</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Director Territorial Cundinamarca</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>57 1 3694031</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:voice>
+                        <gco:CharacterString>58 1 3694084</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>57 1 3694104</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>KR 30 48-51 Edificio 2 Primer Piso</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Bogotá D.C.</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Cundinamarca</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString />
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>dtcundi@igac.gov.co</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>8:00 a 16:30</gco:CharacterString>
+                  </gmd:hoursOfService>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="distributor" codeList="./resources/codeList.xml#CI_RoleCode" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>Definido por la resolución oficial de precios vigente</gco:CharacterString>
+              </gmd:fees>
+              <gmd:plannedAvailableDateTime>
+                <gco:DateTime>2009-12-31T00:00:00</gco:DateTime>
+              </gmd:plannedAvailableDateTime>
+              <gmd:orderingInstructions>
+                <gco:CharacterString>El usuario debe solicitar el producto en el Centro de Información Geográfica, especificando la forma de presentación. Un funcionario diligencia la factura, con la cual el usuario cancela el valor definido por la Resolución de precios vigente</gco:CharacterString>
+              </gmd:orderingInstructions>
+              <gmd:turnaround>
+                <gco:CharacterString>Presentando factura cancelada, reclama el producto en el tiempo indicado por el funcionario en ventanilla.</gco:CharacterString>
+              </gmd:turnaround>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:unitsOfDistribution>
+                <gco:CharacterString />
+              </gmd:unitsOfDistribution>
+              <gmd:transferSize>
+                <gco:Real>%|%Tamanio Archivo%|%</gco:Real>
+              </gmd:transferSize>
+              <gmd:offLine>
+                <gmd:MD_Medium>
+                  <gmd:name>
+                    <gmd:MD_MediumNameCode codeListValue="dvd" codeList="./resources/codeList.xml#MD_MediumNameCode" />
+                  </gmd:name>
+                  <gmd:mediumFormat>
+                    <gmd:MD_MediumFormatCode codeListValue="iso9660" codeList="./resources/codeList.xml#MD_MediumFormatCode" />
+                  </gmd:mediumFormat>
+                </gmd:MD_Medium>
+              </gmd:offLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Instituto Geográfico Agustín Codazzi-Dirección Territorial Guajira</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Director Territorial Guajira</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>57 5 7273630</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:voice>
+                        <gco:CharacterString>58 5 7273930</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>57 5 7273630</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Calle 12 No. 5-25</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Rioacha</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Guajira</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString />
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>riohacha@igac.gov.co</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>7:00 a 12:00 - 14:00 a 18:00</gco:CharacterString>
+                  </gmd:hoursOfService>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="distributor" codeList="./resources/codeList.xml#CI_RoleCode" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>Definido por la resolución oficial de precios vigente</gco:CharacterString>
+              </gmd:fees>
+              <gmd:plannedAvailableDateTime>
+                <gco:DateTime>2009-12-31T00:00:00</gco:DateTime>
+              </gmd:plannedAvailableDateTime>
+              <gmd:orderingInstructions>
+                <gco:CharacterString>El usuario debe solicitar el producto en el Centro de Información Geográfica, especificando la forma de presentación. Un funcionario diligencia la factura, con la cual el usuario cancela el valor definido por la Resolución de precios vigente</gco:CharacterString>
+              </gmd:orderingInstructions>
+              <gmd:turnaround>
+                <gco:CharacterString>Presentando factura cancelada, reclama el producto en el tiempo indicado por el funcionario en ventanilla.</gco:CharacterString>
+              </gmd:turnaround>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:unitsOfDistribution>
+                <gco:CharacterString />
+              </gmd:unitsOfDistribution>
+              <gmd:transferSize>
+                <gco:Real>%|%Tamanio Archivo%|%</gco:Real>
+              </gmd:transferSize>
+              <gmd:offLine>
+                <gmd:MD_Medium>
+                  <gmd:name>
+                    <gmd:MD_MediumNameCode codeListValue="dvd" codeList="./resources/codeList.xml#MD_MediumNameCode" />
+                  </gmd:name>
+                  <gmd:mediumFormat>
+                    <gmd:MD_MediumFormatCode codeListValue="iso9660" codeList="./resources/codeList.xml#MD_MediumFormatCode" />
+                  </gmd:mediumFormat>
+                </gmd:MD_Medium>
+              </gmd:offLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Instituto Geográfico Agustín Codazzi-Dirección Territorial Huila</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Director Territorial Huila</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>57 8 8721222</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:voice>
+                        <gco:CharacterString>57 8 8721264</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>57 8 8721167</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Calle 9 No. 8 – 75</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Neiva</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Huila</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString />
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>neiva@igac.gov.co</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>7:00 a 12:00 - 14:00 a 18:00</gco:CharacterString>
+                  </gmd:hoursOfService>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="distributor" codeList="./resources/codeList.xml#CI_RoleCode" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>Definido por la resolución oficial de precios vigente</gco:CharacterString>
+              </gmd:fees>
+              <gmd:plannedAvailableDateTime>
+                <gco:DateTime>2009-12-31T00:00:00</gco:DateTime>
+              </gmd:plannedAvailableDateTime>
+              <gmd:orderingInstructions>
+                <gco:CharacterString>El usuario debe solicitar el producto en el Centro de Información Geográfica, especificando la forma de presentación. Un funcionario diligencia la factura, con la cual el usuario cancela el valor definido por la Resolución de precios vigente</gco:CharacterString>
+              </gmd:orderingInstructions>
+              <gmd:turnaround>
+                <gco:CharacterString>Presentando factura cancelada, reclama el producto en el tiempo indicado por el funcionario en ventanilla.</gco:CharacterString>
+              </gmd:turnaround>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:unitsOfDistribution>
+                <gco:CharacterString />
+              </gmd:unitsOfDistribution>
+              <gmd:transferSize>
+                <gco:Real>%|%Tamanio Archivo%|%</gco:Real>
+              </gmd:transferSize>
+              <gmd:offLine>
+                <gmd:MD_Medium>
+                  <gmd:name>
+                    <gmd:MD_MediumNameCode codeListValue="dvd" codeList="./resources/codeList.xml#MD_MediumNameCode" />
+                  </gmd:name>
+                  <gmd:mediumFormat>
+                    <gmd:MD_MediumFormatCode codeListValue="iso9660" codeList="./resources/codeList.xml#MD_MediumFormatCode" />
+                  </gmd:mediumFormat>
+                </gmd:MD_Medium>
+              </gmd:offLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Instituto Geográfico Agustín Codazzi-Dirección Territorial Magdalena</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Director Territorial Magdalena</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>57 5 4210157</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:voice>
+                        <gco:CharacterString>57 5 4210249</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>57 5 4210249</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Calle 15 No. 3 - 25 Piso 4 Edificio BCH</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Santa Marta</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Magdalena</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString />
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>santamarta@igac.gov.co</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>7:00 a 12:00 - 14:00 a 18:00</gco:CharacterString>
+                  </gmd:hoursOfService>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="distributor" codeList="./resources/codeList.xml#CI_RoleCode" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>Definido por la resolución oficial de precios vigente</gco:CharacterString>
+              </gmd:fees>
+              <gmd:plannedAvailableDateTime>
+                <gco:DateTime>2009-12-31T00:00:00</gco:DateTime>
+              </gmd:plannedAvailableDateTime>
+              <gmd:orderingInstructions>
+                <gco:CharacterString>El usuario debe solicitar el producto en el Centro de Información Geográfica, especificando la forma de presentación. Un funcionario diligencia la factura, con la cual el usuario cancela el valor definido por la Resolución de precios vigente</gco:CharacterString>
+              </gmd:orderingInstructions>
+              <gmd:turnaround>
+                <gco:CharacterString>Presentando factura cancelada, reclama el producto en el tiempo indicado por el funcionario en ventanilla.</gco:CharacterString>
+              </gmd:turnaround>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:unitsOfDistribution>
+                <gco:CharacterString />
+              </gmd:unitsOfDistribution>
+              <gmd:transferSize>
+                <gco:Real>%|%Tamanio Archivo%|%</gco:Real>
+              </gmd:transferSize>
+              <gmd:offLine>
+                <gmd:MD_Medium>
+                  <gmd:name>
+                    <gmd:MD_MediumNameCode codeListValue="dvd" codeList="./resources/codeList.xml#MD_MediumNameCode" />
+                  </gmd:name>
+                  <gmd:mediumFormat>
+                    <gmd:MD_MediumFormatCode codeListValue="iso9660" codeList="./resources/codeList.xml#MD_MediumFormatCode" />
+                  </gmd:mediumFormat>
+                </gmd:MD_Medium>
+              </gmd:offLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Instituto Geográfico Agustín Codazzi-Dirección Territorial Meta</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Director Territorial Meta</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>57 8 6622913</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:voice>
+                        <gco:CharacterString>57 8 6622919</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>57 8 6624240</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Carrera 33 A No. 37-14 Piso 3, 4 y 5</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Villavicencio</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Meta</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString />
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>villavicencio@igac.gov.co</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>7:00 a 12:00 - 14:00 a 18:00</gco:CharacterString>
+                  </gmd:hoursOfService>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="distributor" codeList="./resources/codeList.xml#CI_RoleCode" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>Definido por la resolución oficial de precios vigente</gco:CharacterString>
+              </gmd:fees>
+              <gmd:plannedAvailableDateTime>
+                <gco:DateTime>2009-12-31T00:00:00</gco:DateTime>
+              </gmd:plannedAvailableDateTime>
+              <gmd:orderingInstructions>
+                <gco:CharacterString>El usuario debe solicitar el producto en el Centro de Información Geográfica, especificando la forma de presentación. Un funcionario diligencia la factura, con la cual el usuario cancela el valor definido por la Resolución de precios vigente</gco:CharacterString>
+              </gmd:orderingInstructions>
+              <gmd:turnaround>
+                <gco:CharacterString>Presentando factura cancelada, reclama el producto en el tiempo indicado por el funcionario en ventanilla.</gco:CharacterString>
+              </gmd:turnaround>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:unitsOfDistribution>
+                <gco:CharacterString />
+              </gmd:unitsOfDistribution>
+              <gmd:transferSize>
+                <gco:Real>%|%Tamanio Archivo%|%</gco:Real>
+              </gmd:transferSize>
+              <gmd:offLine>
+                <gmd:MD_Medium>
+                  <gmd:name>
+                    <gmd:MD_MediumNameCode codeListValue="dvd" codeList="./resources/codeList.xml#MD_MediumNameCode" />
+                  </gmd:name>
+                  <gmd:mediumFormat>
+                    <gmd:MD_MediumFormatCode codeListValue="iso9660" codeList="./resources/codeList.xml#MD_MediumFormatCode" />
+                  </gmd:mediumFormat>
+                </gmd:MD_Medium>
+              </gmd:offLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Instituto Geográfico Agustín Codazzi-Dirección Territorial Nariño</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Director Territorial Nariño</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>57 2 7215041</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:voice>
+                        <gco:CharacterString>57 2 7210707</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>57 2 7216708</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Calle 18 A No. 21A – 18</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Pasto</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Nariño</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString />
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>pasto@igac.gov.co</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>7:00 a 12:00 - 14:00 a 18:00</gco:CharacterString>
+                  </gmd:hoursOfService>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="distributor" codeList="./resources/codeList.xml#CI_RoleCode" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>Definido por la resolución oficial de precios vigente</gco:CharacterString>
+              </gmd:fees>
+              <gmd:plannedAvailableDateTime>
+                <gco:DateTime>2009-12-31T00:00:00</gco:DateTime>
+              </gmd:plannedAvailableDateTime>
+              <gmd:orderingInstructions>
+                <gco:CharacterString>El usuario debe solicitar el producto en el Centro de Información Geográfica, especificando la forma de presentación. Un funcionario diligencia la factura, con la cual el usuario cancela el valor definido por la Resolución de precios vigente</gco:CharacterString>
+              </gmd:orderingInstructions>
+              <gmd:turnaround>
+                <gco:CharacterString>Presentando factura cancelada, reclama el producto en el tiempo indicado por el funcionario en ventanilla.</gco:CharacterString>
+              </gmd:turnaround>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:unitsOfDistribution>
+                <gco:CharacterString />
+              </gmd:unitsOfDistribution>
+              <gmd:transferSize>
+                <gco:Real>%|%Tamanio Archivo%|%</gco:Real>
+              </gmd:transferSize>
+              <gmd:offLine>
+                <gmd:MD_Medium>
+                  <gmd:name>
+                    <gmd:MD_MediumNameCode codeListValue="dvd" codeList="./resources/codeList.xml#MD_MediumNameCode" />
+                  </gmd:name>
+                  <gmd:mediumFormat>
+                    <gmd:MD_MediumFormatCode codeListValue="iso9660" codeList="./resources/codeList.xml#MD_MediumFormatCode" />
+                  </gmd:mediumFormat>
+                </gmd:MD_Medium>
+              </gmd:offLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Instituto Geográfico Agustín Codazzi-Dirección Territorial Norte de Santander</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Director Territorial Santander</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>57 7 5710002</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:voice>
+                        <gco:CharacterString>57 7 5712771</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>57 7 5712771</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Calle 10  No. 3 - 42 piso 8</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Cúcuta</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Norte de Santander</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString />
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>cucuta@igac.gov.co</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>7:15 a 11:30 - 14:00 a 16:30</gco:CharacterString>
+                  </gmd:hoursOfService>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="distributor" codeList="./resources/codeList.xml#CI_RoleCode" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>Definido por la resolución oficial de precios vigente</gco:CharacterString>
+              </gmd:fees>
+              <gmd:plannedAvailableDateTime>
+                <gco:DateTime>2009-12-31T00:00:00</gco:DateTime>
+              </gmd:plannedAvailableDateTime>
+              <gmd:orderingInstructions>
+                <gco:CharacterString>El usuario debe solicitar el producto en el Centro de Información Geográfica, especificando la forma de presentación. Un funcionario diligencia la factura, con la cual el usuario cancela el valor definido por la Resolución de precios vigente</gco:CharacterString>
+              </gmd:orderingInstructions>
+              <gmd:turnaround>
+                <gco:CharacterString>Presentando factura cancelada, reclama el producto en el tiempo indicado por el funcionario en ventanilla.</gco:CharacterString>
+              </gmd:turnaround>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:unitsOfDistribution>
+                <gco:CharacterString />
+              </gmd:unitsOfDistribution>
+              <gmd:transferSize>
+                <gco:Real>%|%Tamanio Archivo%|%</gco:Real>
+              </gmd:transferSize>
+              <gmd:offLine>
+                <gmd:MD_Medium>
+                  <gmd:name>
+                    <gmd:MD_MediumNameCode codeListValue="dvd" codeList="./resources/codeList.xml#MD_MediumNameCode" />
+                  </gmd:name>
+                  <gmd:mediumFormat>
+                    <gmd:MD_MediumFormatCode codeListValue="iso9660" codeList="./resources/codeList.xml#MD_MediumFormatCode" />
+                  </gmd:mediumFormat>
+                </gmd:MD_Medium>
+              </gmd:offLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Instituto Geográfico Agustín Codazzi-Dirección Territorial Quindío</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Director Territorial Quindío</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>57 6 7440003</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:voice>
+                        <gco:CharacterString>57 6 7410921</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>57 6 7443339</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Carrera 17 No 19 - 29 Pisos 2 y 3</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Armenia</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Quindío</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString />
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>armenia@igac.gov.co</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>7:00 a 12:00 - 14:00 a 18:00</gco:CharacterString>
+                  </gmd:hoursOfService>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="distributor" codeList="./resources/codeList.xml#CI_RoleCode" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>Definido por la resolución oficial de precios vigente</gco:CharacterString>
+              </gmd:fees>
+              <gmd:plannedAvailableDateTime>
+                <gco:DateTime>2009-12-31T00:00:00</gco:DateTime>
+              </gmd:plannedAvailableDateTime>
+              <gmd:orderingInstructions>
+                <gco:CharacterString>El usuario debe solicitar el producto en el Centro de Información Geográfica, especificando la forma de presentación. Un funcionario diligencia la factura, con la cual el usuario cancela el valor definido por la Resolución de precios vigente</gco:CharacterString>
+              </gmd:orderingInstructions>
+              <gmd:turnaround>
+                <gco:CharacterString>Presentando factura cancelada, reclama el producto en el tiempo indicado por el funcionario en ventanilla.</gco:CharacterString>
+              </gmd:turnaround>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:unitsOfDistribution>
+                <gco:CharacterString />
+              </gmd:unitsOfDistribution>
+              <gmd:transferSize>
+                <gco:Real>%|%Tamanio Archivo%|%</gco:Real>
+              </gmd:transferSize>
+              <gmd:offLine>
+                <gmd:MD_Medium>
+                  <gmd:name>
+                    <gmd:MD_MediumNameCode codeListValue="dvd" codeList="./resources/codeList.xml#MD_MediumNameCode" />
+                  </gmd:name>
+                  <gmd:mediumFormat>
+                    <gmd:MD_MediumFormatCode codeListValue="iso9660" codeList="./resources/codeList.xml#MD_MediumFormatCode" />
+                  </gmd:mediumFormat>
+                </gmd:MD_Medium>
+              </gmd:offLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Instituto Geográfico Agustín Codazzi-Dirección Territorial Risaralda</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Director Territorial Risaralda</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>57 6 3355514</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:voice>
+                        <gco:CharacterString>57 6 3350082</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>57 6 3251099</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Complejo Urbano Diario del Otún, Calles 19 y 20, carreras 10 y 11 esquina. Local 8.</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Pereira</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Risaralda</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString />
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>pereira@igac.gov.co</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>7:00 a 12:00 - 14:00 a 18:00</gco:CharacterString>
+                  </gmd:hoursOfService>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="distributor" codeList="./resources/codeList.xml#CI_RoleCode" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>Definido por la resolución oficial de precios vigente</gco:CharacterString>
+              </gmd:fees>
+              <gmd:plannedAvailableDateTime>
+                <gco:DateTime>2009-12-31T00:00:00</gco:DateTime>
+              </gmd:plannedAvailableDateTime>
+              <gmd:orderingInstructions>
+                <gco:CharacterString>El usuario debe solicitar el producto en el Centro de Información Geográfica, especificando la forma de presentación. Un funcionario diligencia la factura, con la cual el usuario cancela el valor definido por la Resolución de precios vigente</gco:CharacterString>
+              </gmd:orderingInstructions>
+              <gmd:turnaround>
+                <gco:CharacterString>Presentando factura cancelada, reclama el producto en el tiempo indicado por el funcionario en ventanilla.</gco:CharacterString>
+              </gmd:turnaround>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:unitsOfDistribution>
+                <gco:CharacterString />
+              </gmd:unitsOfDistribution>
+              <gmd:transferSize>
+                <gco:Real>%|%Tamanio Archivo%|%</gco:Real>
+              </gmd:transferSize>
+              <gmd:offLine>
+                <gmd:MD_Medium>
+                  <gmd:name>
+                    <gmd:MD_MediumNameCode codeListValue="dvd" codeList="./resources/codeList.xml#MD_MediumNameCode" />
+                  </gmd:name>
+                  <gmd:mediumFormat>
+                    <gmd:MD_MediumFormatCode codeListValue="iso9660" codeList="./resources/codeList.xml#MD_MediumFormatCode" />
+                  </gmd:mediumFormat>
+                </gmd:MD_Medium>
+              </gmd:offLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Instituto Geográfico Agustín Codazzi-Dirección Territorial Santander</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Director Territorial Santander</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>57 7 7634257</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:voice>
+                        <gco:CharacterString>57 7 6346362</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>57 7 6457868</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Calle 36  No. 22 - 16 Piso 2</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Bucaramanga</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Santander</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString />
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>bucaramanga@igac.gov.co</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>7:00 a 12:00 - 14:00 a 18:00</gco:CharacterString>
+                  </gmd:hoursOfService>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="distributor" codeList="./resources/codeList.xml#CI_RoleCode" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>Definido por la resolución oficial de precios vigente</gco:CharacterString>
+              </gmd:fees>
+              <gmd:plannedAvailableDateTime>
+                <gco:DateTime>2009-12-31T00:00:00</gco:DateTime>
+              </gmd:plannedAvailableDateTime>
+              <gmd:orderingInstructions>
+                <gco:CharacterString>El usuario debe solicitar el producto en el Centro de Información Geográfica, especificando la forma de presentación. Un funcionario diligencia la factura, con la cual el usuario cancela el valor definido por la Resolución de precios vigente</gco:CharacterString>
+              </gmd:orderingInstructions>
+              <gmd:turnaround>
+                <gco:CharacterString>Presentando factura cancelada, reclama el producto en el tiempo indicado por el funcionario en ventanilla.</gco:CharacterString>
+              </gmd:turnaround>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:unitsOfDistribution>
+                <gco:CharacterString />
+              </gmd:unitsOfDistribution>
+              <gmd:transferSize>
+                <gco:Real>%|%Tamanio Archivo%|%</gco:Real>
+              </gmd:transferSize>
+              <gmd:offLine>
+                <gmd:MD_Medium>
+                  <gmd:name>
+                    <gmd:MD_MediumNameCode codeListValue="dvd" codeList="./resources/codeList.xml#MD_MediumNameCode" />
+                  </gmd:name>
+                  <gmd:mediumFormat>
+                    <gmd:MD_MediumFormatCode codeListValue="iso9660" codeList="./resources/codeList.xml#MD_MediumFormatCode" />
+                  </gmd:mediumFormat>
+                </gmd:MD_Medium>
+              </gmd:offLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Instituto Geográfico Agustín Codazzi-Dirección Territorial Sucre</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Director Territorial Sucre</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>57 5 2826099</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:voice>
+                        <gco:CharacterString>57 5 2821746</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>57 5 2824661</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Carrera 18 No. 23 - 04 Piso 7</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Sincelejo</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Sucre</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString />
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>sincelejo@igac.gov.co</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>7:00 a 12:00 - 14:00 a 18:00</gco:CharacterString>
+                  </gmd:hoursOfService>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="distributor" codeList="./resources/codeList.xml#CI_RoleCode" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>Definido por la resolución oficial de precios vigente</gco:CharacterString>
+              </gmd:fees>
+              <gmd:plannedAvailableDateTime>
+                <gco:DateTime>2009-12-31T00:00:00</gco:DateTime>
+              </gmd:plannedAvailableDateTime>
+              <gmd:orderingInstructions>
+                <gco:CharacterString>El usuario debe solicitar el producto en el Centro de Información Geográfica, especificando la forma de presentación. Un funcionario diligencia la factura, con la cual el usuario cancela el valor definido por la Resolución de precios vigente</gco:CharacterString>
+              </gmd:orderingInstructions>
+              <gmd:turnaround>
+                <gco:CharacterString>Presentando factura cancelada, reclama el producto en el tiempo indicado por el funcionario en ventanilla.</gco:CharacterString>
+              </gmd:turnaround>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:unitsOfDistribution>
+                <gco:CharacterString />
+              </gmd:unitsOfDistribution>
+              <gmd:transferSize>
+                <gco:Real>%|%Tamanio Archivo%|%</gco:Real>
+              </gmd:transferSize>
+              <gmd:offLine>
+                <gmd:MD_Medium>
+                  <gmd:name>
+                    <gmd:MD_MediumNameCode codeListValue="dvd" codeList="./resources/codeList.xml#MD_MediumNameCode" />
+                  </gmd:name>
+                  <gmd:mediumFormat>
+                    <gmd:MD_MediumFormatCode codeListValue="iso9660" codeList="./resources/codeList.xml#MD_MediumFormatCode" />
+                  </gmd:mediumFormat>
+                </gmd:MD_Medium>
+              </gmd:offLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Instituto Geográfico Agustín Codazzi-Dirección Territorial Tolima</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Director Territorial Tolima</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>57 8 2611121</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:voice>
+                        <gco:CharacterString>57 8 2636549</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString />
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Calle 13 No. 3A-22</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Ibagué</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Tolima</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString />
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>ibague@igac.gov.co</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>7:00 a 12:00 - 14:00 a 18:00</gco:CharacterString>
+                  </gmd:hoursOfService>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="distributor" codeList="./resources/codeList.xml#CI_RoleCode" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>Definido por la resolución oficial de precios vigente</gco:CharacterString>
+              </gmd:fees>
+              <gmd:plannedAvailableDateTime>
+                <gco:DateTime>2009-12-31T00:00:00</gco:DateTime>
+              </gmd:plannedAvailableDateTime>
+              <gmd:orderingInstructions>
+                <gco:CharacterString>El usuario debe solicitar el producto en el Centro de Información Geográfica, especificando la forma de presentación. Un funcionario diligencia la factura, con la cual el usuario cancela el valor definido por la Resolución de precios vigente</gco:CharacterString>
+              </gmd:orderingInstructions>
+              <gmd:turnaround>
+                <gco:CharacterString>Presentando factura cancelada, reclama el producto en el tiempo indicado por el funcionario en ventanilla.</gco:CharacterString>
+              </gmd:turnaround>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:unitsOfDistribution>
+                <gco:CharacterString />
+              </gmd:unitsOfDistribution>
+              <gmd:transferSize>
+                <gco:Real>%|%Tamanio Archivo%|%</gco:Real>
+              </gmd:transferSize>
+              <gmd:offLine>
+                <gmd:MD_Medium>
+                  <gmd:name>
+                    <gmd:MD_MediumNameCode codeListValue="dvd" codeList="./resources/codeList.xml#MD_MediumNameCode" />
+                  </gmd:name>
+                  <gmd:mediumFormat>
+                    <gmd:MD_MediumFormatCode codeListValue="iso9660" codeList="./resources/codeList.xml#MD_MediumFormatCode" />
+                  </gmd:mediumFormat>
+                </gmd:MD_Medium>
+              </gmd:offLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Instituto Geográfico Agustín Codazzi-Dirección Territorial Valle</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Director Territorial Valle</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>57 2 8855611</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:voice>
+                        <gco:CharacterString>57 2 8811354</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>57 2 8899022</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Carrera 6 No.13-56/62</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Cali</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Valle del Cauca</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString />
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Colombia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>cali@igac.gov.co</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>7:00 a 12:00 - 14:00 a 18:00</gco:CharacterString>
+                  </gmd:hoursOfService>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>Establecer previo contacto telefónico  y/o a través de correo electrónico, para realizar la solicitud o fijar una cita en el horario de atención</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="distributor" codeList="./resources/codeList.xml#CI_RoleCode" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>Definido por la resolución oficial de precios vigente</gco:CharacterString>
+              </gmd:fees>
+              <gmd:plannedAvailableDateTime>
+                <gco:DateTime>2009-12-31T00:00:00</gco:DateTime>
+              </gmd:plannedAvailableDateTime>
+              <gmd:orderingInstructions>
+                <gco:CharacterString>El usuario debe solicitar el producto en el Centro de Información Geográfica, especificando la forma de presentación. Un funcionario diligencia la factura, con la cual el usuario cancela el valor definido por la Resolución de precios vigente</gco:CharacterString>
+              </gmd:orderingInstructions>
+              <gmd:turnaround>
+                <gco:CharacterString>Presentando factura cancelada, reclama el producto en el tiempo indicado por el funcionario en ventanilla.</gco:CharacterString>
+              </gmd:turnaround>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:unitsOfDistribution>
+                <gco:CharacterString />
+              </gmd:unitsOfDistribution>
+              <gmd:transferSize>
+                <gco:Real>%|%Tamanio Archivo%|%</gco:Real>
+              </gmd:transferSize>
+              <gmd:offLine>
+                <gmd:MD_Medium>
+                  <gmd:name>
+                    <gmd:MD_MediumNameCode codeListValue="dvd" codeList="./resources/codeList.xml#MD_MediumNameCode" />
+                  </gmd:name>
+                  <gmd:mediumFormat>
+                    <gmd:MD_MediumFormatCode codeListValue="iso9660" codeList="./resources/codeList.xml#MD_MediumFormatCode" />
+                  </gmd:mediumFormat>
+                </gmd:MD_Medium>
+              </gmd:offLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeListValue="dataset" codeList="./resources/codeList.xml#MD_ScopeCode" />
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>Fotografía aérea digital fuente, la cual no ha tenido proceso geográfico para su elaboración (imagen cruda:Nivel 3)</gco:CharacterString>
+          </gmd:statement>
+          <gmd:processStep>
+            <gmd:LI_ProcessStep>
+              <gmd:description>
+                <gco:CharacterString>Imagen digital capturada por la Cámara Digital Vexcel Ultracam D, con una distancia focal de %|%XXX.X%|% m.m. y una altura de vuelo %|%XXXX.XXX%|% m.s.n.m. A partir del proceso de control de calidad se obtienen los siguientes parámetros: %|%. Además se reportan las siguientes observaciones: %|%</gco:CharacterString>
+              </gmd:description>
+            </gmd:LI_ProcessStep>
+          </gmd:processStep>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <gmd:metadataConstraints>
+    <gmd:MD_LegalConstraints>
+      <gmd:accessConstraints>
+        <gmd:MD_RestrictionCode codeListValue="otherRestrictions" codeList="./resources/codeList.xml#MD_RestrictionCode" />
+      </gmd:accessConstraints>
+      <gmd:useConstraints>
+        <gmd:MD_RestrictionCode codeListValue="copyright" codeList="./resources/codeList.xml#MD_RestrictionCode" />
+      </gmd:useConstraints>
+      <gmd:otherConstraints>
+        <gco:CharacterString>Ninguna</gco:CharacterString>
+      </gmd:otherConstraints>
+    </gmd:MD_LegalConstraints>
+  </gmd:metadataConstraints>
+</gmd:MD_Metadata>
